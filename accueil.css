@@ -1,0 +1,132 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(250, 249, 249);
+
+}
+.blanc{
+  width: 73px;
+  margin-left: 12px;
+  margin-top: -62px;
+}
+ul {
+  list-style: none;       /* Supprime les puces (points) */
+  padding: 0;             /* Enlève le retrait par défaut */
+  margin: 0;  
+  display: flex;    
+  gap: 40px;        /* Facultatif, pour remettre tout à zéro */
+  margin-top: 70px;
+  margin-left: 704px;
+}
+.accueil {
+  font-size: 25px;
+  color: blanchedalmond;
+}
+.calendrier {
+  font-size:25px;
+  color: blanchedalmond;
+  margin-top: 700px;
+ 
+  
+}
+.formulair {
+  font-size: 25px;
+  color: blanchedalmond;
+}
+.aide{
+  font-size: 25px;
+  color: blanchedalmond;
+
+}
+ul li a {
+  background-color: rgb(233, 180, 182);
+  padding: 4px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;  /* Supprime les soulignements des liens */
+  color: inherit;         /* Garde la même couleur que le texte parent */
+}
+h1{
+  font-size: 102px;
+  text-align: center;
+  color: rgb(177, 124, 124);
+  margin-top: 5px;
+}
+h2{
+  text-align: center;
+  color: rgb(216, 156, 132);
+  border: 2px solid rgb(126, 120, 120);
+  padding: 4px;
+  border-radius: 20px; 
+  margin-top: 54px;
+  width: 190px;
+ margin-left: 550px;
+ font-size: 34px;
+}
+.photo{
+ display: flex;
+ gap: 95px;
+ margin-left: 62px;
+ margin-top: 83px;
+ border-radius: 55px;
+}
+.baSphoto{
+  display: flex;
+  gap: 180px;
+  margin-left: 42px;
+  margin-top: 33px;
+  font-size: 20px;
+  color: rgb(134, 101, 101);
+ }
+ .image-hover {
+  width: 560px;
+  border-radius: 23px;
+  height: 280px;
+  transition: transform 0.3s ease; /* Animation douce */
+}
+
+.image-hover:hover {
+  transform: translateY(-5px); /* L’image monte légèrement */
+}
+.sary{
+  width: 99px;
+  height: 73px;
+}
+.farany{
+  margin-top: 72px;
+  display: flex;
+  gap: 34px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: rgb(14, 15, 15);
+
+}
+footer{
+  height: 255px;
+  background-color: rgb(172, 132, 132);
+  display: flex;
+  gap: 4px;
+  border-radius: 33px;
+  
+
+}
+.image{
+
+background-image: url(vue-d-une-salle-de-classe-moderne-a-l-ecole.jpg);
+opacity: 0.9;
+background-size: 1000px;
+height: 699px;
+
+}
+h3{
+ 
+  color: darksalmon;
+  margin-top: -55px;
+  margin-left: 322px;
+}
+.logo{
+  margin-left: 212px;
+}

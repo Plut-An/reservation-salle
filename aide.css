@@ -1,0 +1,56 @@
+ul {
+  list-style: none;       /* Supprime les puces (points) */
+  padding: 0;             /* Enlève le retrait par défaut */
+  margin: 0;  
+  display: flex;    
+  gap: 40px;        /* Facultatif, pour remettre tout à zéro */
+  margin-top: 70px;
+  margin-left: 684px;
+}
+.accueil {
+  font-size: 25px;
+  color: blanchedalmond;
+}
+.calendrier {
+  font-size:25px;
+  color: blanchedalmond;
+  margin-top: 700px;
+ 
+  
+}
+.formulair {
+  font-size: 25px;
+  color: blanchedalmond;
+}
+.aide{
+  font-size: 25px;
+  color: blanchedalmond;
+
+}
+ul li a {
+  background-color: rgb(233, 180, 182);
+  padding: 4px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;  /* Supprime les soulignements des liens */
+  color: inherit;         /* Garde la même couleur que le texte parent */
+}
+
+h3{
+
+color: darksalmon;
+margin-top: -55px;
+margin-left: 302px;
+}
+.logo{
+margin-left: 212px;
+
+}
+img{
+height: 73px;
+width: 73px;
+margin-top: -63px;
+}
+

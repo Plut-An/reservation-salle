@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calendrier.css">
+    <title>CALENDRIER</title>
+</head>
+<body>
+
+
+  <ul>
+    <li><a class="accueil" href="accueil.html">Accueil</a></li>
+    <li><a class="formulair" href="formulaire.html">Formulaire</a></li>
+    <li><a class="calendrier" href="calendrier.html">Calendrier</a></li>
+    <li><a class="formulair" href="propos.html">A propos</a></li>
+    <li><a class="aide" href="aide.html">Aide</a></li>
+</ul>
+<span class="logo" >
+  <img src="512436777_1717381762248007_8031042830647278664_n.jpg">
+  <h3>ESMIA UNIVERSITY</h3>
+</span>
+<br>
+<hr style="border: none; height: 2px; background-color: black;">
+    
+
+<h2>Calendrier des réservations – Juin 2025</h2>
+
+
+
+<div class="calendar" id="calendar"></div>
+
+<script>
+  const calendar = document.getElementById("calendar");
+
+  // Simule le jour de début du mois (ex : samedi = 6)
+  const premierJourSemaine = 6;
+
+  // Nombre de jours dans le mois
+  const joursMois = 30;
+
+  // Espaces vides pour caler le 1er jour
+  for (let i = 1; i < premierJourSemaine; i++) {
+    const empty = document.createElement("div");
+    calendar.appendChild(empty);
+  }
+
+  // Crée les jours avec boutons
+  for (let jour = 1; jour <= joursMois; jour++) {
+    const box = document.createElement("div");
+    box.className = "day-box";
+
+    const number = document.createElement("div");
+    number.className = "day-number";
+    number.textContent = jour;
+
+    const voirBtn = document.createElement("button");
+    voirBtn.className = "btn voir-btn";
+    voirBtn.textContent = "Voir";
+    voirBtn.onclick = () => {
+      alert(`Réservations du ${jour} juin`);
+    };
+
+    const reserverBtn = document.createElement("button");
+    reserverBtn.className = "btn reserver-btn";
+    reserverBtn.textContent = "Réserver";
+    reserverBtn.onclick = () => {
+      window.location.href = `formulaire.html?jour=${jour}`;
+    };
+
+    box.appendChild(number);
+    box.appendChild(voirBtn);
+    box.appendChild(reserverBtn);
+    calendar.appendChild(box);
+  }
+</script>
+
+
+
+  
+</body>
+</html>

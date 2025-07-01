@@ -1,0 +1,113 @@
+ul {
+  list-style: none;       /* Supprime les puces (points) */
+  padding: 0;             /* Enlève le retrait par défaut */
+  margin: 0;  
+  display: flex;    
+  gap: 40px;        /* Facultatif, pour remettre tout à zéro */
+  margin-top: 70px;
+  margin-left: 654px;
+}
+.accueil {
+  font-size: 25px;
+  color: blanchedalmond;
+}
+.calendrier {
+  font-size:25px;
+  color: blanchedalmond;
+  margin-top: 700px;
+ 
+  
+}
+.formulair {
+  font-size: 25px;
+  color: blanchedalmond;
+}
+.aide{
+  font-size: 25px;
+  color: blanchedalmond;
+
+}
+ul li a {
+  background-color: rgb(233, 180, 182);
+  padding: 4px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;  /* Supprime les soulignements des liens */
+  color: inherit;         /* Garde la même couleur que le texte parent */
+}
+
+h3{
+
+color: darksalmon;
+margin-top: -55px;
+margin-left: 302px;
+}
+.logo{
+margin-left: 212px;
+
+}
+img{
+height: 73px;
+width: 73px;
+margin-top: -63px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+
+}
+
+h2 {
+  text-align: center;
+  color: #e91e63;
+}
+
+/*boite pour chaque jour*/
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.day-box {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+}
+
+.day-number {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+/*Style des bouton*/
+.btn {
+  display: block;
+  margin: 5px auto;
+  padding: 6px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.voir-btn {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.reserver-btn {
+  background-color: #e91e63;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
